@@ -228,6 +228,7 @@ article h3 {
 }
 
 article h2 {
+    color:green;
     display: block;
     text-align: right;
     margin: 10px 0px;
@@ -276,7 +277,4 @@ ol.arabic {
     font-size: 14px;
     font-family: "droid_arabic_naskh_regular";
     line-height: 32px;
-}
-h2{
-color:green;
 }
