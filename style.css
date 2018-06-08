@@ -1,17 +1,4 @@
 
-/* Left column */
-.leftcolumn {  
-    text-align:left; 
-    float: left;
-    width: 75%;
-    margin-left:0%;
-    margin-right: 0%;
-	display:inline-block;
-    padding-left: 15px;
-	background: #f1f1f1;
-	border-left: 1px dotted gray;
-	border-right: 1px dotted gray;
-}
 
 /* Add a card effect for articles */
 .card {
@@ -240,7 +227,7 @@ article  {
     text-align:right;
     color:#000;
     direction:rtl;
-    background-color:#FFF;
+    background-color:#ffffff;
     padding-right:10px;
     border-radius:6px;
     font-family:monospace,Consolas;
