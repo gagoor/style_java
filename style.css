@@ -209,7 +209,7 @@ article  {
 
 
 ol.arabic {
-   direction:rtl;
+   direction:ltr;
    color:#000;
 }
 .note {
