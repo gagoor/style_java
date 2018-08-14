@@ -191,7 +191,7 @@ code{
 .word{
   text-align: right;
   color:purple;
-   padding:0px 2px; 
+   padding:0px 2px 0px 2px; 
    border-radius:4px;
     font-weight:bold;
      direction:ltr;
@@ -213,6 +213,7 @@ code{
   color: green;
   font-weight: bold;
   padding-left: 10px;
+    padding-right :10px;
 }
 
 /*----------------------Table Style Begin------------------------------*/
