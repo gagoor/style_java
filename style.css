@@ -122,7 +122,7 @@ margin-right:8px;
 .white-bg{background-color:#FFF;}
 
 .point {
-  color: green;
+  color: #0f0f0f;
   font-weight: bold;
   padding-left: 10px;
 }
@@ -188,7 +188,7 @@ article h3 {
 }
 
 article h2 {
-    color:#0f0f0f;
+    color:green;
     display: block;
     text-align: right;
     margin: 10px 0px;
