@@ -37,7 +37,7 @@ margin-right:8px;
     text-align: left;
 }
 
-.example-box .code-box {
+.example-box .code-box .ol{
   display:block;
   direction:ltr;
   font-family:monospace;
