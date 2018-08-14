@@ -39,7 +39,7 @@ margin-right:8px;
 
 .example-box .code-box {
   display:block;
-  direction:rtl;
+  direction:ltr;
   font-family:monospace;
   font-size: 14px;
   background-color:#FFF;
@@ -210,7 +210,7 @@ article  {
 
 
 ol.arabic {
-   direction:rtl;
+   direction:ltr;
    color:#000;
 }
 .note {
