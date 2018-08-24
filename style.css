@@ -238,6 +238,7 @@ table.list {
     box-shadow:2px 4px 3px #777;
   }
 table.list td {
+   margin-right:5px;
   font-size:16px;
   padding-bottom:20px; 
   border:1px solid #d4d4d4; 
