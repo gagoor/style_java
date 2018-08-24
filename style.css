@@ -9,6 +9,49 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background: #f1f1f1;
 }
+/* Left column */
+.leftcolumn {  
+    text-align:left; 
+    float: left;
+    width: 75%;
+    margin-left:0%;
+    margin-right: 0%;
+}
+/* Add a card effect for articles */
+.card {
+    border-width:2;
+    border-style:groove;
+    background-color: white;
+    padding: 0px;
+    margin-top: 20px;
+}
+.card a:hover,.card_table a:hover{
+    color:#FAFA03;
+    text-decoration: none;
+}
+.card_table{
+    border:2px groove silver;
+    font-weight: 500;
+    font-size:20px;
+    width:90%;
+    color: white;
+    background-color: #aaa;
+    margin-bottom:10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top:20px;
+}
+.card_table a{
+color: white;
+padding-left: 10px;
+text-decoration: none;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 h2{
   color: green;
 }
