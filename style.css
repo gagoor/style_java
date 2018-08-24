@@ -187,6 +187,8 @@ table.list td {
   direction:rtl; 
 }
 table.list th{ 
+    width:20%;
+ border:1px solid gold;
  color:white;
   background-color:#148F77;
    text-align:center; 
