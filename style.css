@@ -236,12 +236,10 @@ table.list td {
   direction:rtl; 
   line-height:1.5em;
 }
-table.list th{
-  border:1px solid gold;
- padding:0px; 
+table.list th{ 
  color:white;
   background-color:#148F77;
-   text-align:right; 
+   text-align:center; 
    direction: rtl;
     font-weight: bold;
   }
