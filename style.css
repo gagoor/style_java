@@ -11,9 +11,8 @@ body {
 }
 /* Left column */
 .leftcolumn {  
-    text-align:left; 
-    float: left;
-    width: 100%;
+    text-align:left;
+    width: 80%;
     margin-left:0%;
     margin-right: 0%;
 }
