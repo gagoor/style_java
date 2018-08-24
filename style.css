@@ -183,7 +183,7 @@ table.list {
 table.list td {
   font-size:16px; 
   border:1px solid #d4d4d4; 
-  vertical-align:middle; 
+  vertical-align:center; 
   direction:rtl; 
 }
 table.list th{ 
