@@ -11,10 +11,11 @@ body {
 }
 /* Left column */
 .leftcolumn {  
+    width:50%;
     text-align:left; 
     margin-left:0%;
     margin-right: 0%;
-     padding-left: 15px;
+    padding-left: 15px;
 }
 /* Add a card effect for articles */
 .card {
