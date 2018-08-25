@@ -11,7 +11,7 @@ body {
 }
 /* Left column */
 .leftcolumn {  
-    width:68%;
+    width:100%;
     text-align:left; 
     margin-left:0%;
     margin-right: 0%;
@@ -245,7 +245,7 @@ table.list .word{
   background-color:transparent;
 }
 table{
-  width: 80%;
+  width: 100%;
   border: 0px none;
     outline: 0px none;
     vertical-align:baseline;
