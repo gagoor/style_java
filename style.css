@@ -49,7 +49,7 @@ body {
 
 #top_ads {
 	width: 1300px;
-	max-width: 100%;
+	max-width: 50%;
 	padding-top: 50px;
 	background: #E0E0E0;
 	border-right: 1px dotted gray;
@@ -59,9 +59,9 @@ body {
 
 #container {
 	display: block;
-	visibility: hidden;
+	visibility: show;
 	width: 1300px;
-	max-width: 100%;
+	max-width: 68%;
 	margin: 0px auto;
 	z-index: 1;
 	overflow: hidden;
