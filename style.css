@@ -11,7 +11,7 @@ body {
 }
 /* Left column */
 .leftcolumn {  
-    width:68%;
+    width:100%;
     text-align:left; 
     margin-left:0%;
     margin-right: 0%;
@@ -67,7 +67,7 @@ article  {
     display:block;
     text-align:right;
     color:#000;
-    width: 68%;
+    width: 100%;
     direction:rtl;
     background-color:#FFF;
     padding:0px 10px 0px 10px;
@@ -159,7 +159,7 @@ ol li p , ul li p {
 .center{text-align:center;}
 .float-r{float:right;}
 .float-l{float:left;}
-.full-width{width:68%;}
+.full-width{width:100%;}
 .b{font-weight:bold;font-size: 20px;}
 .b {font-weight:bold;}
 .u{text-decoration:underline;}
