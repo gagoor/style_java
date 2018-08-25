@@ -24,153 +24,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 body {
 	background: #E0E0E0;
 }
-
-::-moz-selection { background: cyan; color: black;}
-::selection { background: cyan; color: black;}
-
-
-#menu:hover, #library:hover, #tools:hover, #search:hover, #home:hover {
-    background-color: black;
-	cursor: pointer;
-}
-
-#header ul li img{
-    height: 46px;
-	max-width: 100%;
-}
-
-.opened-menu {
-	background: black;
-}
-
-#library, #tools {
-	line-height: 46px;
-}
-
-#top_ads {
-	width: 1300px;
-	max-width: 50%;
-	padding-top: 50px;
-	background: #E0E0E0;
-	border-right: 1px dotted gray;
-	border-left: 1px dotted gray;
-	margin: auto;
-}
-
-#container {
-	display: block;
-	visibility: show;
-	width: 1300px;
-	max-width: 68%;
-	margin: 0px auto;
-	z-index: 1;
-	overflow: hidden;
-}
-
-#side_nav {
-	display: inline-block;
-	background: #D8D8D8;
-	direction: rtl;
-	z-index: 1000;
-}
-
-.floaten-side-nav {
-	position: static;
-	float: right;
-	width: 250px;
-	overflow-y: hidden;
-	border-right: 1px dotted gray;
-}
-
-.sticky-side-nav{
-	position: fixed;
-	top: 50px;
-	right: 0px;
-	overflow-y: auto;
-	border-right: none;
-}
-	
-#main {
-	display: inline-block;
-	background: #f1f1f1;
-	float: left;
-	overflow: hidden;
-}
-#___gcse_0 {
-    max-width: 400px !important;
-    margin: auto !important;
-}
-
-.gsc-search-box {
-	float: right;
-	direction: rtl;
-}
-
-.cse .gsc-control-cse, .gsc-control-cse {
-    background-color: #f1f1f1 !important;
-    border: 1px solid #f1f1f1 !important;
-}
-
-.gsc-clear-button {
-	display: none !important;
-}
-
-input.gsc-search-button {
-    border-color: #444444 !important;
-    background-color: #666666 !important;
-    font-size: 16px !important;
-    font-family: droid_arabic_naskh_regular !important;
-    height: 31px !important;
-    line-height: 28px !important;
-    padding: 0px !important;
-    font-weight: normal !important;
-}
-
-table.gsc-search-box td.gsc-input {
-	padding: 5px 0px !important;
-}
-
-.next-and-previous-lessons a {
-	background: #004481;
-	border-radius: 5px;
-    font-size: 14px;
-    font-family: droid_arabic_naskh_regular;
-    text-decoration: none;
-    color:white;
-}
-
-.next-and-previous-lessons a:hover {
-	background: #0B2161;
-}
-
-.next-page {
-	float: left;
-}
-
-.previous-page {
-	float: right;
-}
-
-.next-page-text, .previous-page-text {
-	display: inline-block;
-	vertical-align: top;
-	padding-top: 8px;
-}
-
-.next-page .cursor {
-	display: inline-block;
-	direction: rtl;
-	padding-right: 10px;
-	font-size: 23px;
-}
-
-.previous-page .cursor {
-	display: inline-block;
-	direction: ltr;
-	padding-left: 10px;
-	font-size: 23px;
-}
-
 h1 {
     display: block;
     text-align: center;
@@ -511,7 +364,7 @@ table.list .code-title{display:block; padding:6px; border-radius:2px; direction:
 }
 
 .note-box {
-    width: 60%;
+    width: 100%;
     border: 1px solid #d4d4d4;
     background-color: #FFFFA3;
     border-radius: 6px;
@@ -528,53 +381,6 @@ table.list .code-title{display:block; padding:6px; border-radius:2px; direction:
 	margin-bottom: 10px;
 }
 /*END of Note*/
-
-
-/*======= End of scroll to top button =======*/
-
-.shortcuts-title {
-	display:block;
-	text-align:right;
-	font-weight:bold;
-	margin-bottom:20px;
-	font-size: 1.2em;
-}
-
-#shortcuts {
-    display: block;
-	padding: 10px 15px;
-    margin: 10px auto;
-}
-
-#shortcuts ul {
-    list-style-position: inside;
-	list-style-type: none;
-	padding: 10px 15px;
-    border-radius: 5px;
-    background-color: #E4E4E4;
-    direction: rtl;
-    font-size: 15px;
-    font-family: droid_arabic_naskh_regular;
-	border: 1px dashed #bbb;
-}
-
-#shortcuts ul li {
-    border-radius: 5px;
-	color: #111;
-	padding: 3px;
-}
-
-#shortcuts ul li:hover{
-	background: #d4d4d4;
-	cursor: pointer;
-	padding-right: 7px;
-}
-
-#shortcuts ul li b {
-    color: red;
-    padding-left: 7px;
-    font-size: 16px;
-}
 
 /*---------------BS settings-------------------*/
 .right{text-align:right;}
@@ -680,52 +486,6 @@ kbd {
 	width: 18px !important;
 	height: auto !important;
 }
- /* The snackbar - position it at the bottom and in the middle of the screen */
-#copySnackBar {
-    visibility: hidden; /* Hidden by default. Visible on click */
-    min-width: 250px; /* Set a default minimum width */
-    margin-left: -125px; /* Divide value of min-width by 2 */
-    background-color: #333; /* Black background color */
-    color: #fff; /* White text color */
-    text-align: center; /* Centered text */
-    border-radius: 2px; /* Rounded borders */
-    padding: 16px; /* Padding */
-    position: fixed; /* Sit on top of the screen */
-    z-index: 1; /* Add a z-index if needed */
-    left: 50%; /* Center the copySnackBar */
-    bottom: 30px; /* 30px from the bottom */
-}
-
-/* Show the copySnackBar when clicking on a button (class added with JavaScript) */
-#copySnackBar.show {
-    visibility: visible; /* Show the copySnackBar */
-
-/* Add animation: Take 0.5 seconds to fade in and out the copySnackBar.
-However, delay the fade out process for 2.5 seconds */
-    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
-    animation: fadein 0.5s, fadeout 0.5s 2.5s;
-}
-
-/* Animations to fade the copySnackBar in and out */
-@-webkit-keyframes fadein {
-    from {bottom: 0; opacity: 0;}
-    to {bottom: 30px; opacity: 1;}
-}
-@keyframes fadein {
-    from {bottom: 0; opacity: 0;}
-    to {bottom: 30px; opacity: 1;}
-}
-@-webkit-keyframes fadeout {
-    from {bottom: 30px; opacity: 1;}
-    to {bottom: 0; opacity: 0;}
-}
-@keyframes fadeout {
-    from {bottom: 30px; opacity: 1;}
-    to {bottom: 0; opacity: 0;}
-} 
-
-
-
 /* Englighter.js */
 
 li .EnlighterJS, li .EnlighterJSWrapper,
