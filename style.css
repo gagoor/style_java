@@ -28,48 +28,6 @@ body {
 ::-moz-selection { background: cyan; color: black;}
 ::selection { background: cyan; color: black;}
 
-#logo {
-	display: block;
-	padding: 0px 13px;
-	line-height: 46px;
-}
-
-#logo a {
-	font-family: Helvetica, Arial, Sans-Serif;
-	font-size: 18px;
-	color: #FFF;	
-}
-
-#header {
-	position: fixed;
-	display: block;
-	background: #1f1f1f;
-	height: 50px;
-	width: 100%;
-	top: 0px;
-	z-index: 2;
-    border-top: 4px solid black;
-}
-
-#header ul {
-    display: block;
-    max-width: 1310px;
-    height: 50px;
-    list-style-type: none;
-    margin: 0px auto;
-}
-
-#header ul li {
-    float: right;
-    display: none;
-    height: 46px;
-    text-decoration: none;
-    color: #FFF;
-    text-align: center;
-    padding: 0px 13px;
-    font-family: droid_arabic_naskh_regular;
-    font-size: 16px;
-}
 
 #menu:hover, #library:hover, #tools:hover, #search:hover, #home:hover {
     background-color: black;
@@ -138,205 +96,6 @@ body {
 	float: left;
 	overflow: hidden;
 }
-
-#ads {
-	padding-top: 15px;
-	display: block;
-	min-height: 280px;
-    background: #111;
-	text-align: center;
-}
-
-#helper {
-	display: block;
-	width: 100%;
-	clear: both;
-	/* height: 40px; */
-	/* background: red; */
-}
-
-
-#footer {
-	display: block;
-	width: 100%;
-	z-index: 1;
-	background: #000;
-	clear: both;
-	padding-top: 15px;
-}
-
-#footer .harmash-logo {
-    display: inline-block;
-    max-width: 150px;
-	margin-bottom: 15px;
-}
-
-.footer-links {
-    text-align: center;
-    margin-bottom: 25px;
-}
-
-.footer-links a {
-    color: #e4db1b;
-    text-decoration: none;
-    font-size: 15px;
-	font-family: droid_arabic_naskh_regular;
-}
-
-.footer-links a:hover {
-    color: yellow;
-}
-
-#about {
-	display: block;
-	width: 90%;
-	max-width: 700px;
-	padding: 30px 0px;
-	margin: 0px auto;
-	direction: rtl;
-	text-align: center;
-	color: #939A9D;
-	font-size: 15px;
-	line-height: 35px;
-	font-family: droid_arabic_naskh_regular;
-}
-
-#follow_us {
-	display: block;
-	width: 90%;
-	max-width: 900px;
-	margin: 0px auto 18px auto;
-	direction: rtl;
-	text-align: center;
-	color: #939A9D;
-	line-height: 30px;
-	font-family: droid_arabic_naskh_regular;
-}
-
-#follow_us a {
-	margin: 3px;
-}
-
-#follow_us a  img{
-	border-radius: 15px;
-}
-
-#follow_us a  img:hover{
-	border: #939A9D 1px solid;
-}
-
-.facebook {background: blue;}
-/* .facebook:hover {background: #2E2EFE;} */
-
-.twitter {background: #0080FF;}
-/* .twitter:hover {background: #01A9DB;} */
-
-.youtube {background: red;}
-/* .youtube:hover {background: #FE2E2E;} */
-
-.telegram {background: #0040FF;}
-/* .telegram:hover {background: #2E64FE;} */
-
-.googleplus {background: #FF4000;}
-/* .googleplus:hover {background: #FE642E;} */
-
-#developped_by {
-    display: block;
-    width: 100%;
-    text-align: center;
-    font-family: droid_arabic_naskh_regular;
-    padding-bottom: 18px;
-    color: #939A9D;
-    font-size: 15px;
-    line-height: 35px;
-}
-
-#developped_by a {
-    text-decoration: none;
-    color: #009cff;
-}
-
-#developped_by a:hover {
-    color: #00b7ff;
-}
-
-#copy_right {
-    display: block;
-    width: 100%;
-    line-height: 40px;
-    text-align: center;
-    color: white;
-    font-size: 15px;
-    font-family: droid_arabic_naskh_regular;
-    padding-bottom: 10px;
-}
-
-
-#tools_box , #library_box, #search_box {
-	display: none;
-	position: fixed;
-	top: 50px;
-	right: 0px;
-	width: 100%;
-	padding: 20px 0px 40px 0px;
-	overflow-y: auto;
-	border-bottom: 1px solid black;
-	background: #f1f1f1;
-}
-
-#tools_box  ul, #library_box ul {
-	display: block;
-	max-width: 90%;
-	margin: 0px auto;
-	list-style-type: none;
-}
-
-#tools_box ul li, #library_box ul li {
-    display: inline-block;
-	margin: 18px 2% 0px 2%;
-	height: 50px;
-	float: right;
-	text-align: right;
-	direction: rtl;
-}
-
-#tools_box ul li a, #library_box ul li a{
-	font-size: 16px;
-	font-family: droid_arabic_naskh_regular;
-	text-decoration: none;
-	height: 100%;
-	width: 100%;
-    border-radius: 10px;
-    border: 1px dashed #b6b4b4;
-	padding: 0% 5%;
-	display: block;
-	line-height: 50px;
-    background: #d8d8d8;
-	color: #424242;
-	overflow: hidden;
-}
-
-#tools_box ul li a img{
-	float: right;
-	padding-left: 5px;
-	height: 50px;
-}
-
-#tools_box ul li a:hover, #library_box ul li a:hover{
-	color: white;
-	background: #777;
-    border: 1px solid #777;
-}
-
-#library_box ul li a span {
-	direction: rtl;
-	color: #06F;
-	font-family: droid_arabic_naskh_regular;
-	font-size: 22px;
-	padding-left: 10px;
-}
-
-
 #___gcse_0 {
     max-width: 400px !important;
     margin: auto !important;
@@ -369,80 +128,6 @@ input.gsc-search-button {
 
 table.gsc-search-box td.gsc-input {
 	padding: 5px 0px !important;
-}
-
-#side_nav .title {
-    display: block;
-    padding-right: 10px;
-    font-family: droid_arabic_naskh_regular;
-    height: 50px;
-    line-height: 50px;
-    font-size: 16px;
-	color: white;
-	background:#004481 url(../../template//images/sidenav-titles-bg.PNG) repeat center center !important;
-    /*background: #086A87;*/
-}
-
-#side_nav ul {
-    display: block;
-    width: 100%;
-    list-style-type: none;
-    list-style-position: inside;
-	padding-bottom: 20px;
-}
-
-#side_nav ul li {
-	display: block;
-	color: #000;
-	border-bottom: 1px dotted gray;
-}
-
-#side_nav ul li img{
-	display: block;
-	max-width: 100%;
-}
-
-#side_nav ul li a:hover {
-	background: #333;
-	color: white;
-}
-
-#side_nav ul li a {
-    display: block;
-    padding: 5px 10px;
-    font-family: droid_arabic_naskh_regular;
-    color: #000;
-    font-size: 15px;
-    text-decoration: none;
-    direction: rtl;
-    text-align: right;
-}
-
-#side_nav ul li a span.arrow {
-	font-size: 17px !important;
-	color: rgb(0, 64, 255) !important;
-	padding-left: 8px !important;
-	font-family: Helvetica, Arial, Sans-Serif;
-}
-
-#side_nav ul li a span.en {
-	font-family: Helvetica, Arial, Sans-Serif;
-}
-
-.next-and-previous-lessons {
-    display: block;
-    padding: 15px;
-    margin: 40px auto 20px auto;
-    background: #f1f1f1;
-    overflow: hidden;
-}
-
-#side_nav ul p {
-	text-align: center;
-	padding-top: 20px;
-	font-size: 14px;
-	color: #086A87;
-	font-family: droid_arabic_naskh_regular;
 }
 
 .next-and-previous-lessons a {
@@ -729,18 +414,6 @@ article .cmd-box div {
 	white-space:nowrap;
 }
 
-.java-file-icon{
-	background:url('../images/java-file.PNG') no-repeat;
-}
-
-.python-file-icon{
-	background:url('../images/python-file.PNG') no-repeat;
-}
-
-.php-file-icon{
-	background:url('../images/php-file.PNG') no-repeat;
-}
-
 .example-box .image-box {
     display:block;
 	background-color:white;
@@ -838,7 +511,7 @@ table.list .code-title{display:block; padding:6px; border-radius:2px; direction:
 }
 
 .note-box {
-    width: 100%;
+    width: 60%;
     border: 1px solid #d4d4d4;
     background-color: #FFFFA3;
     border-radius: 6px;
@@ -909,7 +582,7 @@ table.list .code-title{display:block; padding:6px; border-radius:2px; direction:
 .center{text-align:center;}
 .float-r{float:right;}
 .float-l{float:left;}
-.full-width{width:100%;}
+.full-width{width:60%;}
 .b{font-weight:bold;}
 .b {font-weight:bold;}
 .u{text-decoration:underline;}
