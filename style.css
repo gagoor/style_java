@@ -10,19 +10,10 @@ body {
     background: #f9f9f9;
 }
 
-/* Left column */
-.leftcolumn {  
-    text-align:left; 
-    float: left;
-    width: 100%;
-    margin-left:0%;
-    margin-right: 0%;
-     padding-left: 15px;
-}
 /* Add a card effect for articles */
 .card {
    direction: ltr;
-    border-width:2;
+    border-width:1px;
     padding: 0px;
     border-style:groove;
     background-color: white;
