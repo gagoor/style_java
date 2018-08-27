@@ -216,7 +216,7 @@ table.list {
   }
 table.list td {
   font-size:16px;
-  padding-bottom:20px; 
+  padding:30px; 
   border:1px solid #d4d4d4; 
   vertical-align:middle; 
   direction:rtl; 
