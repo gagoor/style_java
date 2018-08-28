@@ -12,24 +12,6 @@
 .card a:hover,.card_table a:hover{
     color:#FAFA03;
     text-decoration: none;
-}
-.card_table{
-    border:2px groove silver;
-    font-weight: 500;
-    font-size:20px;
-    width:90%;
-    color: white;
-    background-color: #aaa;
-    margin-bottom:10px;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top:20px;
-}
-.card_table a{
-color: white;
-padding-left: 10px;
-text-decoration: none;
-}
 
 h2{
   text-decoration: none;
