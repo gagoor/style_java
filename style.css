@@ -259,5 +259,12 @@ table{
 	margin-top: -10px;
 	margin-bottom: 10px;
 }
+.btn{cursor:pointer; display:inline-block; font-size:16px; font-weight:bold; padding:0px 10px; background:#333; color:#FFF; border-radius:5px;}
+.btn:hover{background:#000;}
+
+a.open-page{cursor:pointer; display:inline-block; padding:5px 10px; background:#726958; color:#FFF; border-radius:5px; text-decoration:none; margin:1px 0px;}
+.open-page img{vertical-align: middle;}
+a.open-page:hover{color:red; background:#000;}
+table a.open-page {padding:2px 8px; font-size:13px; margin-top: 8px;}
 /*END of Note*/
 /*----------------------Table Style End------------------------------*/
