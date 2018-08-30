@@ -154,10 +154,10 @@ code{
     font-weight:bold;
   }
 .word{
-  text-align: right;
+  text-align: left;
   color:purple;
     font-weight:bold;
-     direction:ltr;
+     direction:rtl;
       display:inline-flex;
     }
 
