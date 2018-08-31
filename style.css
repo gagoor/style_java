@@ -154,11 +154,13 @@ code{
     font-weight:bold;
   }
 .word{
-  text-align: left;
-  color:purple;
+  text-align: right;
+  color:#CB4335;
+   padding:0px 2px; 
+   border-radius:4px;
     font-weight:bold;
-     direction:rtl;
-      display:inline-flex;
+     direction:ltr;
+      display:inline-block;
     }
 
 .inline{display:inline-block;}
