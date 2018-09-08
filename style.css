@@ -71,11 +71,11 @@ article h2 {
 .example-box {
   display:block;
   border:1px solid #bbb;
-  background-color:#d3d3d3;
+  background-color:brown;
   margin-bottom:0px;
   border-radius:5px;
-  padding-left:10px;
-  padding-right:10px;
+  padding-left:5px;
+  padding-right:5px;
 }
 
 .code-box {
@@ -99,7 +99,7 @@ article h2 {
   border-right:5px solid #4A235A;
   border-left:5px solid #4A235A;
   line-height:18px;
-  padding:8px 30px;
+  padding:8px 5px;
   border-radius:15px; 
 }
 /*style of point Begin*/
@@ -126,7 +126,6 @@ ol li p , ul li p {
 .red{color:#F00;}
 .green{color:green;}
 .orange {color:#FF7519;}
-.brown{color:#935800;}
 .black {color:#000;}
 .gray {color:#FF7519;}
 .comment{color:#FF7519;}
