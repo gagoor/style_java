@@ -83,7 +83,7 @@ article h2 {
     border:1px solid #d3d3d3;
     border-radius:16px;
     margin-bottom:5px;
-    font-size:18px;
+    font-size:15px;
     text-align: left;
 }
 
@@ -92,7 +92,7 @@ article h2 {
   direction:ltr;
   color: #fff;
   font-family:monospace;
-  font-size: 16px;
+  font-size: 15px;
   background-color:#006666;
   border-top:1px solid #bbb;
   border-bottom:1px solid #bbb;
@@ -129,7 +129,7 @@ ol li p , ul li p {
 .orange {color:#FF7519;}
 .black {color:#000;}
 .gray {color:#fff68f;}
-.comment{color:#fff68f;}
+.comment{color:#e0f70e;}
 
 /*---------------BS settings-------------------*/
 .right{text-align:right;}
