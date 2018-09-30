@@ -277,5 +277,8 @@ a.open-page{cursor:pointer; display:inline-block; padding:5px 10px; background:#
 a.open-page:hover{color:red; background:#000;}
 table a.open-page {padding:2px 8px; font-size:13px; margin-top: 8px;}
 /*END of Note*/
-
+pre {
+  background-color:#006666;
+   overflow: auto; 
+  }
 /*----------------------Table Style End------------------------------*/
