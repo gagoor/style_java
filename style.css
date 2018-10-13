@@ -1,4 +1,4 @@
-<link type="text/css" href="//cdn.rawgit.com/Modareb/files/master/fonts/neo.css" rel="stylesheet"/>
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
 .card {
    direction: ltr;
     border-width:1px;
@@ -48,7 +48,7 @@ article  {
     padding-right:10px;
     padding-left:10px;
     border-radius:6px;
-    font-family:neo;
+    font-family:'Droid Arabic Kufi', serif;
     font-size:18px;
 }
 
@@ -91,7 +91,7 @@ article h2 {
   display:block;
   direction:ltr;
   color: #fff;
-  font-family:neo;
+  font-family:'Droid Arabic Kufi', serif;
   font-size: 15px;
   background-color:#006666;
   border-top:1px solid #bbb;
@@ -137,7 +137,7 @@ ol li p , ul li p {
 .float-r{float:right;}
 .float-l{float:left;}
 .full-width{width:100%;}
-.b{font-weight:normal;font-size: 16px;font-family:neo;}
+.b{font-weight:normal;font-size: 16px;font-family:'Droid Arabic Kufi', serif;}
 .i{font-style:italic;}
 .img-responsive{max-width:100%; height:auto;}
 
@@ -147,7 +147,7 @@ code{
     padding:5px; 
     border-radius:4px; 
     direction:ltr;
-    font-family:neo; 
+    font-family:'Droid Arabic Kufi', serif; 
     text-align:right;
     font-weight:bold;
   }
@@ -225,7 +225,7 @@ table.list .code-title{
 	font-weight:bold; 
 	font-size:14px; 
 	margin-bottom:10px; 
-	font-family:neo;
+	font-family:'Droid Arabic Kufi', serif;
 }
 table{
   width: 100%;
@@ -246,7 +246,7 @@ table{
     font-size: 18px;
     display: block;
     text-align: right;
-    font-family:neo;
+    font-family:'Droid Arabic Kufi', serif;
 }
 
 .note-box {
@@ -258,7 +258,7 @@ table{
     padding: 2px 10px 0px 10px;
     direction: rtl;
     font-size: 16px;
-    font-family:neo;
+    font-family:'Droid Arabic Kufi', serif;
     line-height: 32px;
 }
 
