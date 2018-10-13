@@ -3,9 +3,8 @@
    direction: ltr;
     border-width:1px;
     padding: 0px;
-    border-style:groove;
     background-color: #f1f1f1;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .card a:hover,.card_table a:hover{
     color:#FAFA03;
@@ -47,8 +46,9 @@ article  {
     direction:rtl;
     background-color:#f1f1f1;
     padding-right:10px;
+    padding-left:10px;
     border-radius:6px;
-    font-family:monospace,Consolas;
+    font-family:neo;
     font-size:18px;
 }
 
@@ -91,7 +91,7 @@ article h2 {
   display:block;
   direction:ltr;
   color: #fff;
-  font-family:monospace;
+  font-family:monospace,neo;
   font-size: 15px;
   background-color:#006666;
   border-top:1px solid #bbb;
@@ -149,7 +149,7 @@ code{
     padding:5px; 
     border-radius:4px; 
     direction:ltr;
-    font-family:monospace,Consolas; 
+    font-family:monospace,neo; 
     text-align:right;
     font-weight:bold;
   }
@@ -227,7 +227,7 @@ table.list .code-title{
 	font-weight:bold; 
 	font-size:14px; 
 	margin-bottom:10px; 
-	font-family: Helvetica, Arial, Sans-Serif;
+	font-family:neo;
 }
 table{
   width: 100%;
@@ -248,7 +248,7 @@ table{
     font-size: 18px;
     display: block;
     text-align: right;
-    font-family: droid_arabic_naskh_regular;
+    font-family: droid_arabic_naskh_regular,neo;
 }
 
 .note-box {
@@ -260,7 +260,7 @@ table{
     padding: 2px 10px 0px 10px;
     direction: rtl;
     font-size: 16px;
-    font-family: droid_arabic_naskh_regular;
+    font-family: droid_arabic_naskh_regular,neo;
     line-height: 32px;
 }
 
