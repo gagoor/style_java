@@ -48,8 +48,8 @@ article  {
     padding-right:10px;
     padding-left:10px;
     border-radius:6px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size:18px;
+    font-family: droid_arabic_naskh_regular, Helvetica, sans-serif;
+    font-size:16px;
 }
 
 article h3 {
@@ -91,7 +91,7 @@ article h2 {
   display:block;
   direction:ltr;
   color: #fff;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: droid_arabic_naskh_regular, Helvetica, sans-serif;
   font-size: 15px;
   background-color:#006666;
   border-top:1px solid #bbb;
@@ -137,7 +137,7 @@ ol li p , ul li p {
 .float-r{float:right;}
 .float-l{float:left;}
 .full-width{width:100%;}
-.b{font-weight:normal;font-size: 16px;font-family: Arial, Helvetica, sans-serif;}
+.b{font-weight:normal;font-size: 14px;font-family: droid_arabic_naskh_regular, Helvetica, sans-serif;}
 .i{font-style:italic;}
 .img-responsive{max-width:100%; height:auto;}
 
@@ -147,7 +147,7 @@ code{
     padding:5px; 
     border-radius:4px; 
     direction:ltr;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: droid_arabic_naskh_regular, Helvetica, sans-serif;
     text-align:right;
     font-weight:bold;
   }
@@ -201,9 +201,9 @@ table.list th{
   border:1px solid gold;
  color:white;
   background-color:#148F77;
-   text-align:middle; 
+   text-align:center; 
    direction: rtl;
-    font-weight: bold;
+    font-weight: 400;
   }
 table.list tr:nth-child(odd) {
   background-color:#EAFAF1  ;
@@ -225,8 +225,12 @@ table.list .code-title{
 	font-weight:bold; 
 	font-size:14px; 
 	margin-bottom:10px; 
-	font-family: 'Scheherazade', serif;
+	font-family: droid_arabic_naskh_regular, serif;
 }
+table.horizontal-scroller{overflow-x:scroll}
+table{font-family:droid_arabic_naskh_regular}
+table .number,p .number{font-family:Helvetica,Arial,Sans-Serif;color:red;font-weight:700;direction:ltr}
+table .row-number{width:28px;text-align:center}
 table{
   width: 100%;
   border: 0px none;
@@ -246,7 +250,7 @@ table{
     font-size: 18px;
     display: block;
     text-align: right;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: droid_arabic_naskh_regular, Helvetica, sans-serif;
 }
 
 .note-box {
@@ -258,7 +262,7 @@ table{
     padding: 2px 10px 0px 10px;
     direction: rtl;
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: droid_arabic_naskh_regular, Helvetica, sans-serif;
     line-height: 32px;
 }
 
