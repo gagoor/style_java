@@ -280,6 +280,6 @@ table a.open-page {padding:2px 8px; font-size:13px; margin-top: 8px;}
 /*END of Note*/
 pre {
   background-color:#006666;
-   overflow: auto; 
+   overflow: scroll; 
   }
 /*----------------------Table Style End------------------------------*/
